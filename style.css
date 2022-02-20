@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing:border-box;
+  padding:0;
+  margin: 0;
 }
 
 body {
@@ -10,10 +10,42 @@ body {
 
 .header h1 {
   display: inline-block;
-  font-size:xx-large;
+  font-size: 50px;
+  color: darkslateblue;
+  padding-inline-start: 15px;
 }
 
-.header {}
+.header h1 span {
+  background-color: lavender;
+}
+
+.header {
+  background-color: darkslateblue;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-inline-end: 35px;
+}
+
+.navbar span{
+  color: lavender;
+  font-size:25px;
+}
+
+.subtitle {
+  font-size: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:flex-end;
+  padding-top: 100px;
+}
+
+.subtitle span {
+    background-color: lavender;
+}
 
 .hero {
   height: 200px;
@@ -21,4 +53,97 @@ body {
   background-image: url(./assets/bright-lights-hero.jpeg);
   background-size: cover;
   background-position: center
+}
+
+h2 {
+  color: purple;
+  padding-left: 75px;
+  font-size:30px;
+  text-decoration: underline;
+  position:relative;
+  top: 100px;
+}
+.summary {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  padding-left: 375px;
+}
+
+.content {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  padding-left: 250px;
+  justify-content: space-evenly;
+}
+
+.SurfReport {
+  border: 4px;
+  border-color: lavender;
+  border-style: solid;
+}
+
+.sub1 span {
+  padding-bottom: 10px;
+  background-color: lavender;
+  position:relative;
+  bottom: 65px;
+  left:auto;
+}
+
+.LEDWall {
+  border: 4px;
+  border-color: lavender;
+  border-style: solid;
+}
+
+.sub2 span {
+  padding-bottom: 10px;
+  background-color: lavender;
+  position:relative;
+  bottom: 65px;
+  left:auto;
+}
+
+.Calc {
+    border: 4px;
+    border-color: lavender;
+    border-style: solid;
+  }
+
+  .sub3 span {
+    padding-bottom: 10px;
+    background-color: lavender;
+    position:relative;
+    bottom: 65px;
+    left:auto;
+}
+
+.RunBuddy {
+    border: 4px;
+    border-color: lavender;
+    border-style: solid;
+  }
+
+  .sub4 span {
+    padding-bottom: 10px;
+    background-color: lavender;
+    position:relative;
+    bottom: 65px;
+    left:auto;
+}
+
+.PastelPuzzles {
+    border: 4px;
+    border-color: lavender;
+    border-style: solid;
+  }
+  
+  .sub5 span {
+    padding-bottom: 10px;
+    background-color: lavender;
+    position:relative;
+    bottom: 65px;
+    left:auto;
 }
