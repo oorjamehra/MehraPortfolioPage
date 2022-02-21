@@ -23,16 +23,15 @@ body {
   background-color: darkslateblue;
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
-  padding-inline-end: 35px;
-}
-
-.navbar span{
+.nav {
+  list-style-type:none;
+  display:flex;
+  flex-direction:row;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-left: 900px;
+  font-size: 25px;
   color: lavender;
-  font-size:25px;
 }
 
 .subtitle {
@@ -59,10 +58,15 @@ h2 {
   color: purple;
   padding-left: 75px;
   font-size:30px;
-  text-decoration: underline;
   position:relative;
-  top: 100px;
+  top: 75px;
 }
+
+h2 span {
+  border-radius: 10px;
+  border-color: purple;
+}
+
 .summary {
   display:flex;
   flex-wrap: wrap;
@@ -84,6 +88,10 @@ h2 {
   border-style: solid;
 }
 
+.SurfReport:hover {
+ color: burlywood;
+}
+
 .sub1 span {
   padding-bottom: 10px;
   background-color: lavender;
@@ -98,6 +106,10 @@ h2 {
   border-style: solid;
 }
 
+.LEDWall:hover {
+    color: burlywood;
+}
+
 .sub2 span {
   padding-bottom: 10px;
   background-color: lavender;
@@ -110,7 +122,11 @@ h2 {
     border: 4px;
     border-color: lavender;
     border-style: solid;
-  }
+}
+
+.Calc:hover {
+    color: burlywood;
+}
 
   .sub3 span {
     padding-bottom: 10px;
@@ -118,13 +134,17 @@ h2 {
     position:relative;
     bottom: 65px;
     left:auto;
-}
+  }
 
 .RunBuddy {
     border: 4px;
     border-color: lavender;
     border-style: solid;
-  }
+}
+
+.RunBuddy:hover {
+    color: burlywood;
+}
 
   .sub4 span {
     padding-bottom: 10px;
@@ -138,7 +158,11 @@ h2 {
     border: 4px;
     border-color: lavender;
     border-style: solid;
-  }
+}
+
+.PastelPuzzles:hover {
+    color: burlywood;
+}
   
   .sub5 span {
     padding-bottom: 10px;
@@ -146,4 +170,16 @@ h2 {
     position:relative;
     bottom: 65px;
     left:auto;
+}
+
+.contact {
+  list-style-type:none;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 20px;
+  color: purple;
+  text-decoration:underline;
 }
